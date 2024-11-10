@@ -1,4 +1,5 @@
 <h1>Credit Card Defaulter</h1>
+<img src='https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/newsdrum-in/media/media_files/gTS3fBxzQCAtpXTHo8eT.jpg' width='1000' height='500'>
 <h2>Project Description</h2>
 <p>This project is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients.</p>
 <h2>Dataset Information</h2>
