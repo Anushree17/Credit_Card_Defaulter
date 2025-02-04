@@ -2,6 +2,14 @@
 <img src='https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/newsdrum-in/media/media_files/gTS3fBxzQCAtpXTHo8eT.jpg' width='1000' height='500'>
 <h2>Project Description</h2>
 <p>This project is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients.</p>
+<h2>Use Cases</h2>
+<ul>
+  <li>Risk Assessment for Loan & Credit Approvals – Helps banks evaluate an applicant’s likelihood of defaulting before issuing a credit card or loan.</li>
+<li>Early Warning Systems – Identifies customers at high risk of default, enabling proactive measures like restructuring payment plans or offering financial counseling.</li>
+<li>Fraud Detection & Prevention – Enhances fraud detection models by identifying unusual spending or repayment behaviors linked to potential defaults.</li>
+<li>Automated Credit Risk Scoring – Integrates with credit scoring systems to refine risk evaluation using behavioral and financial patterns.</li>
+<li>Dynamic Credit Limit Adjustments – Adjusts credit limits dynamically based on real-time spending behavior and payment history.</li>
+</ul>
 <h2>Dataset Information</h2>
 <ul>
   <li>Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.</li>
