@@ -1,7 +1,7 @@
 <h1>Credit Card Defaulter</h1>
 <img src='https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/newsdrum-in/media/media_files/gTS3fBxzQCAtpXTHo8eT.jpg' width='1000' height='500'>
-<h2>Project Description</h2>
-<p>This project is aimed at predicting the case of customers default payments in Taiwan. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients.</p>
+<h2>Problem</h2>
+<p>Financial institutions face significant risks due to credit card defaults. Accurately predicting whether a customer will default helps banks and lenders mitigate financial losses, optimize credit policies, and offer better financial products. This project aims to predict credit card defaulters based on customer data from Taiwan, emphasizing risk management by estimating the probability of default rather than just classifying clients as credible or not.</p>
 <h2>Use Cases</h2>
 <ul>
   <li>Risk Assessment for Loan & Credit Approvals – Helps banks evaluate an applicant’s likelihood of defaulting before issuing a credit card or loan.</li>
@@ -22,40 +22,23 @@
   <li>PAY_AMT1,PAY_AMT2,PAY_AMT3,PAY_AMT4,PAY_AMT5,PAY_AMT6:Amount of previous payment (NT dollar)</li>
   </ul>
 
-  <h2>Libraries Used</h2>
+  <h2>Approach Used</h2>
   <ul>
-    <li>Numpy</li>
-    <li>Pandas</li>
-    <li>Matplotlib</li>
-    <li>Seaborn</li>
+    <li>Loaded and cleaned the dataset, handling missing values and outliers.Conducted exploratory data analysis (EDA) to understand key trends and correlations.</li>
+    <li>Identified important predictors affecting default probability.
+Scaled numerical variables to improve model performance.</li>
+    <li>Tested multiple machine learning models, including Logistic Regression, Decision Tree, Random Forest, and XGBoost.Tuned hyperparameters for optimal performance.</li>
+    <li>Used accuracy, precision, recall, F1-score, and AUC-ROC to assess model effectiveness.Focused on reducing false negatives, as missing a potential defaulter is more costly than misclassifying a non-defaulter.</li>
   </ul>
 
-  <h2>Models Used</h2>
+  <h2>Impact</h2>
   <ul>
-    <li>Logistic Regression</li>
-    <li>Decision Tree Classifier</li>
-    <li>Random Forest Classifier</li>
-    <li>Support Vector Machine</li>
-    <li>Gradient Boosting</li>
-    <li>Extreme Gradient Boosting</li>
-    <li></li>
+    <li>Improved Risk Assessment: Enables financial institutions to make data-driven lending decisions, reducing potential losses.</li>
+    <li>Better Credit Policy Optimization: Helps banks adjust interest rates and credit limits based on a customer’s predicted risk level.</li>
+    <li>Enhanced Customer Segmentation: Allows financial institutions to provide personalized offers and financial advice to at-risk customers.</li>
   </ul>
 
 
-  <h2>Evaluation Metrics</h2>
-  <ul>
-    <li>Accuracy</li>
-    <li>Precision</li>
-    <li>Recall</li>
-    <li>F1 Score</li>
-  </ul>
-
-
-  <h2>Conclusion</h2>
-  <p>From all baseline model, Random forest classifier shows highest test accuracy and F1 score and AUC.
-Baseline model of Random forest and decision tree shows huge difference in train and test accuracy which shows overfitting.
-After cross validation and hyperparameter tunning, XG Boost shows highest test accuracy score of 87.10% and AUC is 0.874.
-Cross validation and hyperparameter tunning certainly reduces chances of overfitting and also increases performance of model.</p>
   
   
 
